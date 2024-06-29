@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Ram",
+        "subject": "Maths",
+        "id": "1",
+        "address": "Bhaktapur",
+        "email": "ram@gmail.com",
+        "phone_number": 9876543567
+    },
+    {
+        "name": "Hari",
+        "subject": "Science",
+        "id": "2",
+        "address": "Lalitpur",
+        "email": "hari@gmail.com",
+        "phone_number": 9987654321
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Isha",
+        "roll_number": "1",
+        "email": "isha@gmail.com",
+        "phone_number": 9876453867,
+        "marks": {
+            "c": 80,
+            "c++": 90,
+            "python": 99
+        },
+        "address": "Biratnagar"
+    },
+    {
+        "name": "Jasmine",
+        "roll_number": "2",
+        "email": "jasmine@gmail.com",
+        "phone_number": 9876453620,
+        "marks": {
+            "c": 70,
+            "c++": 94,
+            "python": 89
+        },
+        "address": "Lalitpur"
+    }
+]
