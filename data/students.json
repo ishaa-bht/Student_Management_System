@@ -1,26 +1,50 @@
 [
     {
-        "name": "Isha",
-        "roll_number": "1",
-        "email": "isha@gmail.com",
-        "phone_number": 9876453867,
+        "name": "Harry",
+        "roll_number": "3",
+        "email": "harry@gmail.com",
+        "phone_number": 9875647869,
         "marks": {
-            "c": 80,
-            "c++": 90,
-            "python": 99
+            "c": 60,
+            "c++": 80,
+            "python": 90
         },
-        "address": "Biratnagar"
+        "address": "Sinamangal"
     },
     {
-        "name": "Jasmine",
-        "roll_number": "2",
-        "email": "jasmine@gmail.com",
-        "phone_number": 9876453620,
+        "name": "Hermoine",
+        "roll_number": "6",
+        "email": "her@gmail.com",
+        "phone_number": 9876578654,
         "marks": {
-            "c": 70,
-            "c++": 94,
-            "python": 89
+            "c": 90,
+            "c++": 97,
+            "python": 99
         },
         "address": "Lalitpur"
+    },
+    {
+        "name": "Ron",
+        "roll_number": "7",
+        "email": "ron@gmail.com",
+        "phone_number": 9876574356,
+        "marks": {
+            "c": 10,
+            "c++": 13,
+            "python": 30
+        },
+        "address": "Blueberry"
+    },
+    {
+        "name": "Eren Yaegar",
+        "roll_number": "8",
+        "email": "ereh@gmail.com",
+        "phone_number": 9875674890,
+        "marks": {
+            "c": 96,
+            "c++": 92,
+            "python": 90
+        },
+        "address": "Paradise"
     }
 ]

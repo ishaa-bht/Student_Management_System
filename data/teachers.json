@@ -14,5 +14,29 @@
         "address": "Lalitpur",
         "email": "hari@gmail.com",
         "phone_number": 9987654321
+    },
+    {
+        "name": "Snape",
+        "subject": "Chemistry",
+        "id": "3",
+        "address": "London",
+        "email": "snpae@gmail.com",
+        "phone_number": 9876546789
+    },
+    {
+        "name": "Dumbledore",
+        "subject": "Geometry",
+        "id": "4",
+        "address": "Lalaland",
+        "email": "dum@gmail.com",
+        "phone_number": 9876574890
+    },
+    {
+        "name": "Alexander",
+        "subject": "Geology",
+        "id": "5",
+        "address": "America",
+        "email": "alex@gmail.com",
+        "phone_number": 9876578903
     }
 ]
