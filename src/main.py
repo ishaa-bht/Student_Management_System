@@ -30,13 +30,18 @@ def add_new_teacher_from_user(file_path):
         ValueError: Raised if the provided teacher's ID already exists in the teachers' data.
     """
     try:
+        # Step 1: Read the current teachers from the JSON file
+        teachers = read_json(file_path)
         
-
-        print("You need to verify yourself as a teacher to add new entries.")
-        teacher_name = input("Enter your name: ")
-        teacher_id = input("Enter your Id number: ")
-        if not authenticate_teacher(TEACHERS_FILE, teacher_name, teacher_id):
-            raise AuthenticationError("Authentication failed. Only teachers can add new data.")
+        # Step 2: Check if there are existing teachers
+        if teachers:
+            print("You need to verify yourself as a teacher to add new entries.")
+            teacher_name = input("Enter your name: ")
+            teacher_id = input("Enter your ID number: ")
+            if not authenticate_teacher(file_path, teacher_name, teacher_id):
+                raise AuthenticationError("Authentication failed. Only teachers can add new data.")
+        
+        # Step 3: Collect new teacher information
         name = input("Enter teacher's name: ")
         subject = input("Enter subject: ")
         teacher_id = input("Enter teacher ID: ")
@@ -44,10 +49,11 @@ def add_new_teacher_from_user(file_path):
         email = input("Enter email: ")
         phone_number = input("Enter phone number: ")
 
-        teachers = read_json(file_path)
+        # Check for unique teacher ID
         if any(teacher.get('teacher_id') == teacher_id for teacher in teachers):
             raise ValueError("Teacher ID must be unique.")
 
+        # Create and save the new teacher
         new_teacher = Teacher(name, subject, teacher_id, address, email, int(phone_number))
         new_teacher.accept(file_path)
     except ValueError as e:

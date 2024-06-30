@@ -1,42 +1,34 @@
 [
     {
-        "name": "Ram",
-        "subject": "Maths",
-        "id": "1",
-        "address": "Bhaktapur",
-        "email": "ram@gmail.com",
-        "phone_number": 9876543567
-    },
-    {
-        "name": "Hari",
-        "subject": "Science",
-        "id": "2",
-        "address": "Lalitpur",
-        "email": "hari@gmail.com",
-        "phone_number": 9987654321
-    },
-    {
         "name": "Snape",
         "subject": "Chemistry",
-        "id": "3",
-        "address": "London",
-        "email": "snpae@gmail.com",
-        "phone_number": 9876546789
+        "id": "1",
+        "address": "Lalaland",
+        "email": "snape@gmail.com",
+        "phone_number": 9876578960
     },
     {
         "name": "Dumbledore",
-        "subject": "Geometry",
-        "id": "4",
-        "address": "Lalaland",
+        "subject": "Physics",
+        "id": "2",
+        "address": "London",
         "email": "dum@gmail.com",
-        "phone_number": 9876574890
+        "phone_number": 9876546789
     },
     {
         "name": "Alexander",
         "subject": "Geology",
-        "id": "5",
+        "id": "3",
         "address": "America",
         "email": "alex@gmail.com",
-        "phone_number": 9876578903
+        "phone_number": 9876578907
+    },
+    {
+        "name": "Levi",
+        "subject": "Mathematics",
+        "id": "4",
+        "address": "Paradise",
+        "email": "levi@gmail.com",
+        "phone_number": 9876546789
     }
 ]
